@@ -1,0 +1,26 @@
+.tourist-places {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .place-card {
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .place-card:hover {
+    transform: scale(1.05);
+  }
+  
+  @media (max-width: 768px) {
+    .place-card {
+      margin-bottom: 20px;
+    }
+  }
+  

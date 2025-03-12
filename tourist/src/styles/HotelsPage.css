@@ -1,0 +1,37 @@
+.hotels-page {
+    padding: 20px;
+  }
+  
+  .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .search-form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .loading {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .hotel-card {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border-radius: 10px;
+  }
+  
+  .hotel-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .hotel-card img {
+    height: 200px;
+    object-fit: cover;
+  }
+  

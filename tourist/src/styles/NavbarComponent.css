@@ -1,0 +1,36 @@
+/* 🌙 Navbar Styling */
+.custom-navbar {
+    background-color: #000; /* Black Navbar */
+    padding: 10px 15px;
+  }
+  
+  /* 🔷 Logo Styling */
+  .navbar-logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  /* 📱 Navbar Links */
+  .nav-link {
+    color: #fff !important;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #00bcd4 !important; /* Cyan hover effect */
+  }
+  
+  /* 📱 Mobile Styling */
+  @media (max-width: 768px) {
+    .custom-navbar {
+      padding: 8px 12px;
+    }
+    .nav-link {
+      font-size: 18px;
+      padding: 8px;
+    }
+  }
+  
