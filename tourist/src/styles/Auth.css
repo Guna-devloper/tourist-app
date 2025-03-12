@@ -36,14 +36,14 @@
     font-weight: bold;
     padding: 12px;
     border-radius: 5px;
-    background: #007bff;
+    background: red;
     border: none;
     transition: 0.3s;
     width: 100%;
   }
   
   .auth-page .btn-primary:hover {
-    background: #0056b3;
+    background: red;
   }
   
   /* Error Message */
@@ -62,7 +62,7 @@
   .auth-page .btn-link {
     font-size: 14px;
     font-weight: bold;
-    color: #007bff;
+    color: red;
     text-decoration: none;
   }
   

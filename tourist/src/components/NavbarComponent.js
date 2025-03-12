@@ -30,7 +30,7 @@ const NavbarComponent = () => {
       <Container>
         {/* 🔷 Logo */}
         <Navbar.Brand as={Link} to="/" className="navbar-logo">
-          🏝️ TravelBuddy
+          🏝️ TouristApp
         </Navbar.Brand>
 
         {/* 📱 Mobile Toggle Button */}
@@ -50,7 +50,7 @@ const NavbarComponent = () => {
                 <Nav.Link as={Link} to="/bookings" className="nav-link">
                   Bookings
                 </Nav.Link>
-                <Button variant="danger" onClick={handleLogout} className="ms-2">
+                <Button variant="primary" onClick={handleLogout} className="ms-2">
                   Logout
                 </Button>
               </>

@@ -40,7 +40,7 @@ const Signup = () => {
 
         <Button variant="primary" type="submit" className="mt-3 w-100">Sign Up</Button>
       </Form>
-      <p className="mt-3">Already have an account? <Button variant="link" onClick={() => navigate("/login")}>Login</Button></p>
+      <p className="mt-3">Already have an account? <Button variant="link" onClick={() => navigate("/")}>Login</Button></p>
     </Container>
   );
 };
